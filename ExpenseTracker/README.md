@@ -1,3 +1,7 @@
+# project url
+https://roadmap.sh/projects/expense-tracker
+
+
 # Expense Tracker CLI
 
 A simple command-line **Expense Tracker** built with **Node.js**. This tool allows you to manage your personal finances with ease by tracking expenses, categorizing them, setting monthly budgets, and exporting reports.
