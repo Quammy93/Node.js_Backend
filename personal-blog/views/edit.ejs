@@ -1,0 +1,7 @@
+<h2><%= article ? 'Edit' : 'Add' %> Article</h2>
+<form method="POST">
+  <input name="title" value="<%= article?.title || '' %>" placeholder="Title">
+  <textarea name="content"><%= article?.content || '' %></textarea>
+  <input type="date" name="date" value="<%= article?.date || '' %>">
+  <button>Save</button>
+</form>

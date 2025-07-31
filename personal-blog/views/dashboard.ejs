@@ -1,0 +1,9 @@
+<h2>Admin Dashboard</h2>
+<a href="/add">Add New</a> | <a href="/logout">Logout</a>
+<ul>
+  <% articles.forEach(a => { %>
+    <li>
+      <%= a.title %> | <a href="/edit/<%= a.id %>">Edit</a> | <a href="/delete/<%= a.id %>">Delete</a>
+    </li>
+  <% }) %>
+</ul>
