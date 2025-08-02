@@ -1,3 +1,7 @@
+# project url
+https://roadmap.sh/projects/personal-blog
+
+
 # Personal Blog App
 
 A minimalist blog platform built with Node.js, Express, and EJS. It features a public guest section for reading articles and an admin section for managing blog posts (create, edit, delete) using basic file-based storage.
